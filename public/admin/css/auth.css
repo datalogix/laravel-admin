@@ -1,0 +1,122 @@
+html,
+body {
+  font: 400 62.5% "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000;
+  background: #ECEFF1;
+}
+
+a {
+  text-decoration: none;
+  color: #2196F3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.auth {
+  margin: 100px auto 0;
+}
+
+.content {
+  background: #fff;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.field {
+  margin: 10px 0 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  outline: none !important;
+}
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #ccc;
+}
+
+.btn.btn-success {
+  background: #4caf50;
+  color: #fff;
+}
+
+.btn.btn-danger {
+  background: #ff5252;
+  color: #fff;
+}
+
+.btn.btn-block {
+  width: 100%;
+  display: block;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alert {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #ccc;
+}
+
+.alert.alert-success {
+  background: #4caf50;
+  color: #fff;
+}
+
+.alert.alert-danger {
+  background: #ff5252;
+  color: #fff;
+}
+
+.alert ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.alert ul li {
+  margin: 5px 0;
+}
+

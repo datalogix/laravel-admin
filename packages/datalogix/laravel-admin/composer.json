@@ -1,0 +1,33 @@
+{
+    "name": "datalogix/laravel-admin",
+    "description": "This is the description of the package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Gobbo de Souza",
+            "email": "ricardogobbosouza@yahoo.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Datalogix\\Admin\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datalogix\\Admin\\AdminServiceProvider"
+            ],
+            "aliases": {
+                "Admin": "Datalogix\\Admin\\Admin"
+            }
+        }
+    },
+    "require": {
+        "composer/composer": "^1.9"
+    }
+}
